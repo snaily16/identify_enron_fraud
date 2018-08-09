@@ -13,6 +13,14 @@ Our dataset combines the public record of Enron emails and financial data with a
 ### Features
 The features included in the dataset can be divided in three categories, Salary Features, Stock Features and Email Features.
 
+Financial features: [salary, deferral_payments, total_payments, loan_advances, bonus, restricted_stock_deferred, deferred_income, 
+
+Stock features: total_stock_value, expenses, exercised_stock_options, other, long_term_incentive, restricted_stock, director_fees 
+
+Email features: to_messages, email_address, from_poi_to_this_person, from_messages, from_this_person_to_poi, shared_receipt_with_poi 
+
+POI label: poi 
+
 
 ## Files
 1. enron_project.ipynb: Jupyter notebook. Runs final feature selection, feature scaling, various classifiers (optional) and their results. Finally, dumps classifier, dataset and feature list so anyone can check results.
