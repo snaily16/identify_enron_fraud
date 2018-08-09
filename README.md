@@ -11,4 +11,19 @@ Our dataset combines the public record of Enron emails and financial data with a
 ## Dataset
 
 ### Features
-The features included in the dataset can be divided in three categories, Salary Features, Stock Features and Email Features. 
+The features included in the dataset can be divided in three categories, Salary Features, Stock Features and Email Features.
+
+
+## Files
+1. enron_project.ipynb: Jupyter notebook. Runs final feature selection, feature scaling, various classifiers (optional) and their results. Finally, dumps classifier, dataset and feature list so anyone can check results.
+
+2. poi_id.py: Main file. 
+
+3. tester.py: Functions for validation and evaluation of classifier, dumping and loading of pickle files.
+
+4. my_classifier.pkl: Pickle file for final classifier from poi_id.py.
+
+5. my_dataset.pkl: Pickle file for final dataset from poi_id.py.
+
+6. my_feature_list.pkl: Pickle file for final feature list from poi_id.py.
+ 
